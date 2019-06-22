@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -57,9 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				5AFF704922AF033100B59541 /* AppDelegate.swift */,
-				5AFF704B22AF033100B59541 /* art.scnassets */,
 				5AFF704D22AF033100B59541 /* ViewController.swift */,
 				5AFF704F22AF033100B59541 /* Main.storyboard */,
+				5AFF704B22AF033100B59541 /* art.scnassets */,
 				5AFF705222AF033300B59541 /* Assets.xcassets */,
 				5AFF705422AF033300B59541 /* LaunchScreen.storyboard */,
 				5AFF705722AF033300B59541 /* Info.plist */,
@@ -103,7 +103,7 @@
 				};
 			};
 			buildConfigurationList = 5AFF704122AF033100B59541 /* Build configuration list for PBXProject "ARDicee" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -289,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J2X2ZU3GRN;
 				INFOPLIST_FILE = ARDicee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J2X2ZU3GRN;
 				INFOPLIST_FILE = ARDicee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
